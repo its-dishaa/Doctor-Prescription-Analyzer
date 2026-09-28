@@ -1,0 +1,78 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# =========================
+# FastAPI / uploads
+# =========================
+
+uploads/
+
+# =========================
+# Database
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# SQLite files
+*.db-journal
+*.db-wal
+*.db-shm
+
+# =========================
+# React / Node
+# =========================
+
+node_modules/
+frontend/node_modules/
+
+frontend/dist/
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Python cache / notebooks
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Local files
+# =========================
+
+*.tmp
+*.bak

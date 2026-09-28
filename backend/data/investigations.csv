@@ -1,0 +1,401 @@
+id,canonical_name,aliases,department,category,fasting
+1,Complete Blood Count,"CBC;Complete Hemogram;Hemogram;CBP",Hematology,Laboratory,No
+2,Hemoglobin,"Hb;HGB;Hb%",Hematology,Laboratory,No
+3,Peripheral Smear,"PS;Peripheral Blood Smear;PBS",Hematology,Laboratory,No
+4,ESR,"Erythrocyte Sedimentation Rate",Hematology,Laboratory,No
+5,C-Reactive Protein,"CRP;C Reactive Protein",Biochemistry,Laboratory,No
+6,Procalcitonin,"PCT;Pro Calcitonin",Biochemistry,Laboratory,No
+7,Reticulocyte Count,"Retic Count;Reticulocytes",Hematology,Laboratory,No
+8,Platelet Count,"PLT;Platelets",Hematology,Laboratory,No
+9,White Blood Cell Count,"WBC;TLC;Total Leukocyte Count",Hematology,Laboratory,No
+10,Differential Leukocyte Count,"DLC;Differential Count",Hematology,Laboratory,No
+11,Blood Group,"ABO;Blood Typing",Hematology,Laboratory,No
+12,Coombs Test,"DAT;DCT;Direct Coombs;Indirect Coombs;ICT",Hematology,Laboratory,No
+13,Bleeding Time,"BT",Hematology,Laboratory,No
+14,Clotting Time,"CT",Hematology,Laboratory,No
+15,Prothrombin Time,"PT;PT INR",Hematology,Laboratory,No
+16,INR,"International Normalized Ratio",Hematology,Laboratory,No
+17,Activated Partial Thromboplastin Time,"aPTT;PTT",Hematology,Laboratory,No
+18,Liver Function Test,"LFT;Liver Profile;Hepatic Function Test",Biochemistry,Biochemistry,No
+19,Kidney Function Test,"KFT;Renal Function Test;RFT",Biochemistry,Biochemistry,No
+20,Blood Urea,"Urea;BUN",Biochemistry,Biochemistry,No
+21,Serum Creatinine,"Creatinine;Sr Creatinine",Biochemistry,Biochemistry,No
+22,Uric Acid,"UA;Serum Uric Acid",Biochemistry,Biochemistry,No
+23,Sodium,"Na;Serum Sodium",Biochemistry,Biochemistry,No
+24,Potassium,"K;Serum Potassium",Biochemistry,Biochemistry,No
+25,Chloride,"Cl;Serum Chloride",Biochemistry,Biochemistry,No
+26,Calcium,"Ca;Serum Calcium",Biochemistry,Biochemistry,No
+27,Magnesium,"Mg;Serum Magnesium",Biochemistry,Biochemistry,No
+28,Phosphorus,"PO4;Phosphate",Biochemistry,Biochemistry,No
+29,Albumin,"Serum Albumin",Biochemistry,Biochemistry,No
+30,Globulin,"Serum Globulin",Biochemistry,Biochemistry,No
+31,Bilirubin Total,"Total Bilirubin",Biochemistry,Biochemistry,No
+32,Bilirubin Direct,"Direct Bilirubin",Biochemistry,Biochemistry,No
+33,SGOT,"AST",Biochemistry,Biochemistry,No
+34,SGPT,"ALT",Biochemistry,Biochemistry,No
+35,Alkaline Phosphatase,"ALP",Biochemistry,Biochemistry,No
+36,Gamma GT,"GGT",Biochemistry,Biochemistry,No
+37,Fasting Blood Sugar,"FBS;Fasting Glucose",Biochemistry,Diabetes,Yes
+38,Postprandial Blood Sugar,"PPBS;PP",Biochemistry,Diabetes,No
+39,Random Blood Sugar,"RBS;Random Glucose",Biochemistry,Diabetes,No
+40,HbA1c,"Glycated Hemoglobin;A1c",Biochemistry,Diabetes,No
+41,Oral Glucose Tolerance Test,"OGTT",Biochemistry,Diabetes,Yes
+42,Lipid Profile,"Lipid Panel",Biochemistry,Biochemistry,Yes
+43,Total Cholesterol,"TC",Biochemistry,Biochemistry,Yes
+44,HDL Cholesterol,"HDL",Biochemistry,Biochemistry,Yes
+45,LDL Cholesterol,"LDL",Biochemistry,Biochemistry,Yes
+46,Triglycerides,"TG",Biochemistry,Biochemistry,Yes
+47,Iron Study,"Iron Profile;Iron Studies",Biochemistry,Biochemistry,No
+48,Serum Iron,"Iron",Biochemistry,Biochemistry,No
+49,Ferritin,"Serum Ferritin",Biochemistry,Biochemistry,No
+50,TIBC,"Total Iron Binding Capacity",Biochemistry,Biochemistry,No
+51,Vitamin B12,"B12;Cobalamin",Biochemistry,Biochemistry,No
+52,Folate,"Folic Acid;Vitamin B9",Biochemistry,Biochemistry,No
+53,Vitamin D,"25 OH Vitamin D;Vit D",Biochemistry,Biochemistry,No
+54,TSH,"Thyroid Stimulating Hormone",Endocrinology,Hormone,No
+55,T3,"Free T3;Triiodothyronine",Endocrinology,Hormone,No
+56,T4,"Free T4;Thyroxine",Endocrinology,Hormone,No
+57,Urine Routine,"Urine R/M;Urine RE;Urine Routine Examination",Pathology,Pathology,No
+58,Urine Culture,"Urine C/S;Urine Culture Sensitivity",Microbiology,Microbiology,No
+59,Stool Routine,"Stool R/M;Stool RE",Pathology,Pathology,No
+60,Stool Occult Blood,"FOBT;Occult Blood;Stool Occult Blood",Pathology,Pathology,No
+61,Stool Ova and Cyst,"Ova Cyst;Stool for Ova Cyst",Pathology,Pathology,No
+62,Sputum Culture,"Sputum C/S",Microbiology,Microbiology,No
+63,Blood Culture,"Culture;Blood C/S",Microbiology,Microbiology,No
+64,Dengue NS1,"NS1",Microbiology,Serology,No
+65,Dengue IgM,"Dengue Antibody",Microbiology,Serology,No
+66,Malaria Parasite,"MP;Peripheral Smear for MP",Microbiology,Serology,No
+67,Widal Test,"Widal",Microbiology,Serology,No
+68,HBsAg,"Hepatitis B Surface Antigen",Microbiology,Serology,No
+69,Anti HCV,"HCV",Microbiology,Serology,No
+70,HIV Test,"HIV ELISA",Microbiology,Serology,No
+71,ANA,"Antinuclear Antibody",Immunology,Immunology,No
+72,Anti dsDNA,"Double Stranded DNA",Immunology,Immunology,No
+73,RF,"Rheumatoid Factor",Immunology,Immunology,No
+74,Anti CCP,"CCP",Immunology,Immunology,No
+75,IgA tTG,"TTG IgA;Anti tTG",Immunology,Immunology,No
+76,Troponin I,"Trop-I;cTnI",Cardiology,Cardiology,No
+77,CK-MB,"CKMB;CK MB",Cardiology,Cardiology,No
+78,Creatine Kinase,"CK;CPK",Cardiology,Cardiology,No
+79,NT-proBNP,"PRO-BNP;NT Pro BNP;NT-pro BNP",Cardiology,Cardiology,No
+80,D-Dimer,"D Dimer",Cardiology,Cardiology,No
+81,ECG,"EKG",Cardiology,Cardiology,No
+82,2D Echocardiography,"2D Echo;Echo",Cardiology,Cardiology,No
+83,X-Ray Chest,"Chest Xray;Chest X-Ray;CXR",Radiology,Imaging,No
+84,X-Ray Abdomen,"Abdomen Xray",Radiology,Imaging,No
+85,Ultrasound Whole Abdomen,"USG W/A;USG Abdomen;Whole Abdomen USG",Radiology,Imaging,No
+86,Ultrasound Pelvis,"USG Pelvis",Radiology,Imaging,No
+87,CT Brain,"CT Head;CECT Brain",Radiology,Imaging,No
+88,CT Chest,"CECT Chest",Radiology,Imaging,No
+89,CT Abdomen,"CECT Abdomen",Radiology,Imaging,No
+90,MRI Brain,"MRI Head",Radiology,Imaging,No
+91,MRI Spine,"MRI LS Spine;MRI Cervical Spine",Radiology,Imaging,No
+92,MRI Knee,"MRI Right Knee;MRI Left Knee",Radiology,Imaging,No
+93,PET CT,"PET-CT",Radiology,Imaging,No
+94,Mammography,"Mammo",Radiology,Imaging,No
+95,Bone Mineral Density,"DEXA;BMD",Radiology,Imaging,No
+96,Pap Smear,"Pap Test",Gynecology,Screening,No
+97,PSA,"Prostate Specific Antigen",Urology,Screening,No
+98,Beta hCG,"Beta HCG;Pregnancy Test",Gynecology,Hormone,No
+99,Semen Analysis,"Sperm Analysis",Andrology,Laboratory,No
+100,Pulmonary Function Test,"PFT;Spirometry",Pulmonology,Pulmonology,No
+101,FEV1,"Forced Expiratory Volume",Pulmonology,Pulmonology,No
+102,FVC,"Forced Vital Capacity",Pulmonology,Pulmonology,No
+103,Peak Flow Meter,"Peak Expiratory Flow",Pulmonology,Pulmonology,No
+104,Bronchoscopy,"Fiberoptic Bronchoscopy",Pulmonology,Procedure,No
+105,Pleural Fluid Analysis,"Pleural Fluid",Pulmonology,Procedure,No
+106,Arterial Blood Gas,"ABG",Pulmonology,Critical Care,No
+107,Sleep Study,"Polysomnography;PSG",Pulmonology,Procedure,No
+108,Nerve Conduction Study,"NCS",Neurology,Neurology,No
+109,Electromyography,"EMG",Neurology,Neurology,No
+110,Electroencephalography,"EEG",Neurology,Neurology,No
+111,Video EEG,"Long Term EEG",Neurology,Neurology,No
+112,Lumbar Puncture,"CSF Examination;Spinal Tap",Neurology,Procedure,No
+113,CSF Protein,"CSF Protein",Neurology,Laboratory,No
+114,CSF Sugar,"CSF Glucose",Neurology,Laboratory,No
+115,CSF Cell Count,"CSF Cells",Neurology,Laboratory,No
+116,CSF Culture,"CSF C/S",Microbiology,Microbiology,No
+117,CSF ADA,"CSF Adenosine Deaminase",Neurology,Laboratory,No
+118,Cervical Spine X-Ray,"X-Ray Cervical Spine",Radiology,Imaging,No
+119,Lumbar Spine X-Ray,"X-Ray LS Spine",Radiology,Imaging,No
+120,Knee X-Ray,"X-Ray Knee",Radiology,Imaging,No
+121,Hip X-Ray,"X-Ray Hip",Radiology,Imaging,No
+122,Shoulder X-Ray,"X-Ray Shoulder",Radiology,Imaging,No
+123,Elbow X-Ray,"X-Ray Elbow",Radiology,Imaging,No
+124,Wrist X-Ray,"X-Ray Wrist",Radiology,Imaging,No
+125,Hand X-Ray,"X-Ray Hand",Radiology,Imaging,No
+126,Foot X-Ray,"X-Ray Foot",Radiology,Imaging,No
+127,Ankle X-Ray,"X-Ray Ankle",Radiology,Imaging,No
+128,Pelvis X-Ray,"X-Ray Pelvis",Radiology,Imaging,No
+129,Skull X-Ray,"X-Ray Skull",Radiology,Imaging,No
+130,Sinus X-Ray,"PNS X-Ray",Radiology,Imaging,No
+131,CT Neck,"CECT Neck",Radiology,Imaging,No
+132,CT Spine,"CT LS Spine",Radiology,Imaging,No
+133,CT Angiography,"CT Angio",Radiology,Imaging,No
+134,MRI Shoulder,"MRI Shoulder Joint",Radiology,Imaging,No
+135,MRI Hip,"MRI Hip Joint",Radiology,Imaging,No
+136,MRI Ankle,"MRI Ankle",Radiology,Imaging,No
+137,MRI Foot,"MRI Foot",Radiology,Imaging,No
+138,MRI Wrist,"MRI Wrist",Radiology,Imaging,No
+139,MRI Hand,"MRI Hand",Radiology,Imaging,No
+140,MRCP,"Magnetic Resonance Cholangiopancreatography",Radiology,Imaging,No
+141,MR Angiography,"MRA",Radiology,Imaging,No
+142,Ultrasound Thyroid,"USG Thyroid",Radiology,Imaging,No
+143,Ultrasound Breast,"USG Breast",Radiology,Imaging,No
+144,Ultrasound Scrotum,"USG Scrotum",Radiology,Imaging,No
+145,Ultrasound Kidney,"USG Kidney",Radiology,Imaging,No
+146,Ultrasound Liver,"USG Liver",Radiology,Imaging,No
+147,Ultrasound Obstetric,"Obstetric USG",Radiology,Imaging,No
+148,Doppler Lower Limb,"Venous Doppler",Radiology,Imaging,No
+149,Doppler Upper Limb,"Arterial Doppler",Radiology,Imaging,No
+150,Carotid Doppler,"Carotid Duplex",Radiology,Imaging,No
+151,FNAC,"Fine Needle Aspiration Cytology",Pathology,Procedure,No
+152,Core Needle Biopsy,"Core Biopsy",Pathology,Procedure,No
+153,Excision Biopsy,"Biopsy",Pathology,Procedure,No
+154,Histopathology,"HPE",Pathology,Pathology,No
+155,Immunohistochemistry,"IHC",Pathology,Pathology,No
+156,Frozen Section,"Frozen Biopsy",Pathology,Procedure,No
+157,Cytology,"Cytopathology",Pathology,Pathology,No
+158,Bone Marrow Aspiration,"BMA",Hematology,Procedure,No
+159,Bone Marrow Biopsy,"BMB",Hematology,Procedure,No
+160,Hemoglobin Electrophoresis,"Hb Electrophoresis",Hematology,Laboratory,No
+161,G6PD Assay,"G6PD",Hematology,Laboratory,No
+162,Sickle Cell Test,"Sickling Test",Hematology,Laboratory,No
+163,Osmotic Fragility Test,"OFT",Hematology,Laboratory,No
+164,Direct Antiglobulin Test,"DAT",Hematology,Laboratory,No
+165,Indirect Antiglobulin Test,"IAT",Hematology,Laboratory,No
+166,D-Dimer Quantitative,"Quantitative D-Dimer",Cardiology,Cardiology,No
+167,Cardiac Enzymes,"Cardiac Marker",Cardiology,Cardiology,No
+168,Holter Monitoring,"24 Hour Holter",Cardiology,Procedure,No
+169,Treadmill Test,"TMT;Stress Test",Cardiology,Procedure,No
+170,Stress Echo,"Stress Echocardiography",Cardiology,Procedure,No
+171,Coronary Angiography,"CAG",Cardiology,Procedure,No
+172,CT Coronary Angiography,"CT CAG",Cardiology,Imaging,No
+173,HLA B27,"HLA-B27",Immunology,Immunology,No
+174,Complement C3,"C3",Immunology,Immunology,No
+175,Complement C4,"C4",Immunology,Immunology,No
+176,ANCA,"cANCA;pANCA",Immunology,Immunology,No
+177,Anti MPO,"MPO Antibody",Immunology,Immunology,No
+178,Anti PR3,"PR3 Antibody",Immunology,Immunology,No
+179,IgG,"Immunoglobulin G",Immunology,Immunology,No
+180,IgM,"Immunoglobulin M",Immunology,Immunology,No
+181,IgE,"Immunoglobulin E",Immunology,Immunology,No
+182,Serum Protein Electrophoresis,"SPEP",Biochemistry,Biochemistry,No
+183,Urine Protein Electrophoresis,"UPEP",Biochemistry,Biochemistry,No
+184,Beta2 Microglobulin,"B2M",Biochemistry,Biochemistry,No
+185,LDH,"Lactate Dehydrogenase",Biochemistry,Biochemistry,No
+186,Amylase,"Serum Amylase",Biochemistry,Biochemistry,No
+187,Lipase,"Serum Lipase",Biochemistry,Biochemistry,No
+188,Serum Osmolality,"Osmolality",Biochemistry,Biochemistry,No
+189,Urine Osmolality,"Urine Osmolality",Biochemistry,Biochemistry,No
+190,Microalbuminuria,"Urine Microalbumin",Biochemistry,Biochemistry,No
+191,24 Hour Urine Protein,"24 Hr Urine Protein",Biochemistry,Biochemistry,No
+192,Creatinine Clearance,"Creatinine Clearance Test",Biochemistry,Biochemistry,No
+193,Urine Sodium,"Urinary Sodium",Biochemistry,Biochemistry,No
+194,Urine Potassium,"Urinary Potassium",Biochemistry,Biochemistry,No
+195,Urine Calcium,"Urinary Calcium",Biochemistry,Biochemistry,No
+196,Urine Chloride,"Urinary Chloride",Biochemistry,Biochemistry,No
+197,Urine Uric Acid,"Urinary Uric Acid",Biochemistry,Biochemistry,No
+198,Urine Protein,"Proteinuria",Biochemistry,Biochemistry,No
+199,Urine Creatinine,"Urinary Creatinine",Biochemistry,Biochemistry,No
+200,Urine Ketone,"Ketone Bodies",Biochemistry,Biochemistry,No
+201,FNAC,"Fine Needle Aspiration Cytology;FNAC Test",Pathology,Pathology,No
+202,Core Needle Biopsy,"Core Biopsy;CNB;Tru-cut Biopsy",Pathology,Pathology,No
+203,Breast Biopsy,"Breast Core Biopsy",Pathology,Pathology,No
+204,Tru-cut Biopsy,"Trucut;Tru Cut Biopsy",Pathology,Pathology,No
+205,Incisional Biopsy,"Incision Biopsy",Pathology,Pathology,No
+206,Excisional Biopsy,"Excision Biopsy",Pathology,Pathology,No
+207,Punch Biopsy,"Skin Punch Biopsy",Pathology,Pathology,No
+208,Endometrial Biopsy,"EM Biopsy",Pathology,Pathology,No
+209,Cervical Biopsy,"Cx Biopsy",Pathology,Pathology,No
+210,Lymph Node Biopsy,"LN Biopsy",Pathology,Pathology,No
+211,Bone Marrow Examination,"BME",Pathology,Pathology,No
+212,Histopathology,"HPE;Histopathology Examination",Pathology,Pathology,No
+213,Frozen Section,"Frozen Biopsy",Pathology,Pathology,No
+214,Immunohistochemistry,"IHC",Pathology,Pathology,No
+215,Flow Cytometry,"Flow",Pathology,Pathology,No
+216,Cytology,"Cytology Examination",Pathology,Pathology,No
+217,Pleural Fluid Analysis,"Pleural Fluid",Pathology,Pathology,No
+218,Ascitic Fluid Analysis,"Ascitic Fluid",Pathology,Pathology,No
+219,Pericardial Fluid Analysis,"Pericardial Fluid",Pathology,Pathology,No
+220,CSF Analysis,"Cerebrospinal Fluid Analysis",Pathology,Pathology,No
+221,Synovial Fluid Analysis,"Joint Fluid Analysis",Pathology,Pathology,No
+222,Peritoneal Fluid Analysis,"Peritoneal Fluid",Pathology,Pathology,No
+223,HER2,"HER2 Neu;c-erbB2",Oncology,Molecular,No
+224,ER Receptor,"ER;Estrogen Receptor",Oncology,Molecular,No
+225,PR Receptor,"Progesterone Receptor;PR",Oncology,Molecular,No
+226,Ki-67 Index,"Ki67;Ki 67",Oncology,Molecular,No
+227,PD-L1,"PDL1",Oncology,Molecular,No
+228,EGFR Mutation,"EGFR",Oncology,Molecular,No
+229,ALK Rearrangement,"ALK",Oncology,Molecular,No
+230,ROS1 Mutation,"ROS1",Oncology,Molecular,No
+231,KRAS Mutation,"KRAS",Oncology,Molecular,No
+232,NRAS Mutation,"NRAS",Oncology,Molecular,No
+233,BRAF Mutation,"BRAF",Oncology,Molecular,No
+234,BRCA1 Mutation,"BRCA1",Oncology,Molecular,No
+235,BRCA2 Mutation,"BRCA2",Oncology,Molecular,No
+236,MSI Testing,"Microsatellite Instability",Oncology,Molecular,No
+237,NGS Panel,"Next Generation Sequencing",Oncology,Molecular,No
+238,FISH Study,"Fluorescence In Situ Hybridization",Oncology,Molecular,No
+239,Cytogenetics,"Chromosomal Analysis",Oncology,Molecular,No
+240,Karyotyping,"Chromosome Analysis",Oncology,Molecular,No
+241,CA-125,"Cancer Antigen 125",Oncology,Tumor Marker,No
+242,CA 15-3,"CA15-3",Oncology,Tumor Marker,No
+243,CA 19-9,"CA19-9",Oncology,Tumor Marker,No
+244,CEA,"Carcinoembryonic Antigen",Oncology,Tumor Marker,No
+245,AFP,"Alpha Fetoprotein",Oncology,Tumor Marker,No
+246,Beta hCG Tumor Marker,"Tumor Beta HCG",Oncology,Tumor Marker,No
+247,PSA Total,"Total PSA",Oncology,Tumor Marker,No
+248,Free PSA,"fPSA",Oncology,Tumor Marker,No
+249,Calcitonin,"Calcitonin Test",Oncology,Tumor Marker,No
+250,Thyroglobulin,"TG Marker",Oncology,Tumor Marker,No
+251,NSE,"Neuron Specific Enolase",Oncology,Tumor Marker,No
+252,Chromogranin A,"CgA",Oncology,Tumor Marker,No
+253,CA 72-4,"CA72-4",Oncology,Tumor Marker,No
+254,SCC Antigen,"Squamous Cell Carcinoma Antigen",Oncology,Tumor Marker,No
+255,CYFRA 21-1,"CYFRA",Oncology,Tumor Marker,No
+256,Beta-2 Microglobulin,"B2M",Oncology,Tumor Marker,No
+257,PET CT Whole Body,"Whole Body PET CT;WB PET CT",Radiology,Imaging,No
+258,PET CT Brain,"Brain PET CT",Radiology,Imaging,No
+259,PET CT Chest,"Chest PET CT",Radiology,Imaging,No
+260,PET CT Abdomen,"Abdominal PET CT",Radiology,Imaging,No
+261,PET CT Pelvis,"Pelvic PET CT",Radiology,Imaging,No
+262,MRI Breast,"Breast MRI",Radiology,Imaging,No
+263,Contrast Mammography,"CE Mammography",Radiology,Imaging,No
+264,Digital Mammography,"Digital Mammo",Radiology,Imaging,No
+265,Breast Ultrasound,"USG Breast",Radiology,Imaging,No
+266,Axillary Ultrasound,"Axillary USG",Radiology,Imaging,No
+267,Sentinel Node Mapping,"SLN Mapping",Oncology,Procedure,No
+268,Lymphoscintigraphy,"Sentinel Lymph Node Scan",Nuclear Medicine,Imaging,No
+269,Bone Scan,"Bone Scintigraphy",Nuclear Medicine,Imaging,No
+270,Thyroid Scan,"Radionuclide Thyroid Scan",Nuclear Medicine,Imaging,No
+271,Renal Scan,"DTPA Scan",Nuclear Medicine,Imaging,No
+272,DMSA Scan,"Renal Cortical Scan",Nuclear Medicine,Imaging,No
+273,MUGA Scan,"Cardiac Blood Pool Scan",Nuclear Medicine,Imaging,No
+274,Gallium Scan,"Gallium Imaging",Nuclear Medicine,Imaging,No
+275,Octreotide Scan,"Somatostatin Receptor Scan",Nuclear Medicine,Imaging,No
+276,PSMA PET CT,"PSMA Scan",Nuclear Medicine,Imaging,No
+277,DOTATATE PET CT,"Ga68 DOTATATE",Nuclear Medicine,Imaging,No
+278,Whole Body MRI,"WB MRI",Radiology,Imaging,No
+279,CT Guided Biopsy,"CT Guided Core Biopsy",Radiology,Procedure,No
+280,USG Guided FNAC,"Ultrasound Guided FNAC",Radiology,Procedure,No
+281,USG Guided Biopsy,"Ultrasound Guided Core Biopsy",Radiology,Procedure,No
+282,Stereotactic Biopsy,"Stereotactic Breast Biopsy",Radiology,Procedure,No
+283,Vacuum Assisted Biopsy,"VAB",Radiology,Procedure,No
+284,Bronchoscopy Biopsy,"Bronchoscopic Biopsy",Pulmonology,Procedure,No
+285,Colonoscopy Biopsy,"Colon Biopsy",Gastroenterology,Procedure,No
+286,Gastroscopy Biopsy,"Upper GI Biopsy",Gastroenterology,Procedure,No
+287,Liver Biopsy,"Hepatic Biopsy",Gastroenterology,Procedure,No
+288,Renal Biopsy,"Kidney Biopsy",Nephrology,Procedure,No
+289,Prostate Biopsy,"TRUS Guided Biopsy",Urology,Procedure,No
+290,Skin Biopsy,"Dermatology Biopsy",Dermatology,Procedure,No
+291,Muscle Biopsy,"Muscle Tissue Biopsy",Neurology,Procedure,No
+292,Nerve Biopsy,"Peripheral Nerve Biopsy",Neurology,Procedure,No
+293,Endoscopic Ultrasound,"EUS",Gastroenterology,Procedure,No
+294,ERCP,"Endoscopic Retrograde Cholangiopancreatography",Gastroenterology,Procedure,No
+295,MRCP,"Magnetic Resonance Cholangiopancreatography",Radiology,Imaging,No
+296,Capsule Endoscopy,"Wireless Capsule Endoscopy",Gastroenterology,Procedure,No
+297,Upper GI Endoscopy,"UGI Endoscopy;OGD;Gastroscopy",Gastroenterology,Procedure,No
+298,Colonoscopy,"Colonoscopy Examination",Gastroenterology,Procedure,No
+299,Sigmoidoscopy,"Flexible Sigmoidoscopy",Gastroenterology,Procedure,No
+300,Proctoscopy,"Rectoscopy",Gastroenterology,Procedure,No
+301,Upper GI Endoscopy,"UGI Endoscopy;Gastroscopy",Gastroenterology,Procedure,No
+302,Colonoscopy,"Lower GI Endoscopy",Gastroenterology,Procedure,No
+303,Sigmoidoscopy,"Flexible Sigmoidoscopy",Gastroenterology,Procedure,No
+304,ERCP,"Endoscopic Retrograde Cholangiopancreatography",Gastroenterology,Procedure,No
+305,MRCP,"Magnetic Resonance Cholangiopancreatography",Radiology,Imaging,No
+306,Capsule Endoscopy,"Wireless Capsule Endoscopy",Gastroenterology,Procedure,No
+307,Liver Biopsy,"Hepatic Biopsy",Gastroenterology,Procedure,No
+308,Pancreatic Function Test,"PFT Pancreas",Gastroenterology,Laboratory,No
+309,Fecal Elastase,"Stool Elastase",Gastroenterology,Laboratory,No
+310,Fecal Calprotectin,"Calprotectin Stool",Gastroenterology,Laboratory,No
+311,Hydrogen Breath Test,"Lactose Breath Test",Gastroenterology,Laboratory,No
+312,Urea Breath Test,"H Pylori Breath Test",Gastroenterology,Laboratory,No
+313,H Pylori Stool Antigen,"H Pylori Antigen",Microbiology,Laboratory,No
+314,H Pylori IgG,"Helicobacter Antibody",Microbiology,Serology,No
+315,Gastric Emptying Study,"GES",Nuclear Medicine,Imaging,No
+316,Barium Swallow,"Esophagogram",Radiology,Imaging,No
+317,Barium Meal,"Upper GI Contrast Study",Radiology,Imaging,No
+318,Barium Enema,"Contrast Enema",Radiology,Imaging,No
+319,Small Bowel Follow Through,"SBFT",Radiology,Imaging,No
+320,Defecography,"Evacuation Proctography",Radiology,Imaging,No
+321,Flexible Bronchoscopy,"Bronchoscopy",Pulmonology,Procedure,No
+322,BAL Analysis,"Bronchoalveolar Lavage",Pulmonology,Laboratory,No
+323,Pleural Fluid Analysis,"Pleural Tap",Pulmonology,Laboratory,No
+324,Thoracentesis,"Pleural Aspiration",Pulmonology,Procedure,No
+325,Lung Biopsy,"Pulmonary Biopsy",Pulmonology,Procedure,No
+326,Peak Expiratory Flow Rate,"PEFR",Pulmonology,Laboratory,No
+327,DLCO,"Diffusing Capacity",Pulmonology,Laboratory,No
+328,Six Minute Walk Test,"6MWT",Pulmonology,Procedure,No
+329,Sleep Study,"Polysomnography",Pulmonology,Procedure,No
+330,Apnea Link Study,"Portable Sleep Study",Pulmonology,Procedure,No
+331,Cystoscopy,"Bladder Endoscopy",Urology,Procedure,No
+332,Uroflowmetry,"Urine Flow Test",Urology,Procedure,No
+333,Post Void Residual,"PVR",Urology,Procedure,No
+334,Retrograde Urethrogram,"RGU",Radiology,Imaging,No
+335,Micturating Cystourethrogram,"MCU;VCUG",Radiology,Imaging,No
+336,Intravenous Pyelogram,"IVP;IVU",Radiology,Imaging,No
+337,Renal Doppler,"Kidney Doppler",Radiology,Imaging,No
+338,Prostate MRI,"MRI Prostate",Radiology,Imaging,No
+339,Scrotal Ultrasound,"USG Scrotum",Radiology,Imaging,No
+340,Transrectal Ultrasound,"TRUS",Radiology,Imaging,No
+341,Semen Culture,"Culture Semen",Microbiology,Laboratory,No
+342,Urine Cytology,"Urine Cytopathology",Pathology,Laboratory,No
+343,PSA Free,"Free PSA",Urology,Laboratory,No
+344,PSA Total,"Total PSA",Urology,Laboratory,No
+345,Testosterone Total,"Serum Testosterone",Endocrinology,Hormone,No
+346,Testosterone Free,"Free Testosterone",Endocrinology,Hormone,No
+347,LH Hormone,"Luteinizing Hormone",Endocrinology,Hormone,No
+348,FSH Hormone,"Follicle Stimulating Hormone",Endocrinology,Hormone,No
+349,Estradiol,"E2",Endocrinology,Hormone,No
+350,Progesterone,"Progesterone Level",Endocrinology,Hormone,No
+351,AMH,"Anti Mullerian Hormone",Gynecology,Hormone,No
+352,Ovulation Study,"Follicular Monitoring",Gynecology,Procedure,No
+353,HSG,"Hysterosalpingography",Gynecology,Imaging,No
+354,TVS,"Transvaginal Ultrasound",Radiology,Imaging,No
+355,NT Scan,"Nuchal Translucency Scan",Obstetrics,Imaging,No
+356,Anomaly Scan,"Level II Scan",Obstetrics,Imaging,No
+357,Growth Scan,"Fetal Growth Scan",Obstetrics,Imaging,No
+358,BPP,"Biophysical Profile",Obstetrics,Imaging,No
+359,NST,"Non Stress Test",Obstetrics,Procedure,No
+360,CTG,"Cardiotocography",Obstetrics,Procedure,No
+361,Fundus Examination,"Retinal Examination",Ophthalmology,Procedure,No
+362,Slit Lamp Examination,"Slit Lamp",Ophthalmology,Procedure,No
+363,Visual Acuity Test,"Vision Test",Ophthalmology,Procedure,No
+364,Visual Field Test,"Perimetry",Ophthalmology,Procedure,No
+365,Optical Coherence Tomography,"OCT Eye",Ophthalmology,Imaging,No
+366,Fundus Fluorescein Angiography,"FFA",Ophthalmology,Imaging,No
+367,Intraocular Pressure,"IOP",Ophthalmology,Procedure,No
+368,Corneal Topography,"Corneal Mapping",Ophthalmology,Imaging,No
+369,Pachymetry,"Corneal Thickness",Ophthalmology,Procedure,No
+370,B Scan Eye,"Ocular Ultrasound",Ophthalmology,Imaging,No
+371,Pure Tone Audiometry,"PTA",ENT,Procedure,No
+372,Impedance Audiometry,"Tympanometry",ENT,Procedure,No
+373,Otoacoustic Emission,"OAE",ENT,Procedure,No
+374,BERA,"Brainstem Evoked Response Audiometry",ENT,Procedure,No
+375,Nasal Endoscopy,"Diagnostic Nasal Endoscopy",ENT,Procedure,No
+376,Laryngoscopy,"Flexible Laryngoscopy",ENT,Procedure,No
+377,Sinus CT,"CT PNS",Radiology,Imaging,No
+378,Neck Ultrasound,"USG Neck",Radiology,Imaging,No
+379,FNAC Neck,"Fine Needle Aspiration Neck",Pathology,Procedure,No
+380,Thyroid Scan,"Radionuclide Thyroid Scan",Nuclear Medicine,Imaging,No
+381,Bone Scan,"Skeletal Scintigraphy",Nuclear Medicine,Imaging,No
+382,Renal Scan,"DTPA Scan;MAG3 Scan",Nuclear Medicine,Imaging,No
+383,HIDA Scan,"Hepatobiliary Scan",Nuclear Medicine,Imaging,No
+384,MUGA Scan,"Cardiac Blood Pool Scan",Nuclear Medicine,Imaging,No
+385,Parathyroid Scan,"Sestamibi Scan",Nuclear Medicine,Imaging,No
+386,Gallium Scan,"Gallium Imaging",Nuclear Medicine,Imaging,No
+387,White Cell Scan,"Tagged WBC Scan",Nuclear Medicine,Imaging,No
+388,Lymphoscintigraphy,"Lymphatic Scan",Nuclear Medicine,Imaging,No
+389,Sentinel Node Scan,"SLN Scan",Nuclear Medicine,Imaging,No
+390,SPECT Brain,"Brain SPECT",Nuclear Medicine,Imaging,No
+391,SPECT Heart,"Cardiac SPECT",Nuclear Medicine,Imaging,No
+392,SPECT Bone,"Bone SPECT",Nuclear Medicine,Imaging,No
+393,PET Brain,"Brain PET",Nuclear Medicine,Imaging,No
+394,PET Cardiac,"Cardiac PET",Nuclear Medicine,Imaging,No
+395,PET Whole Body,"Whole Body PET",Nuclear Medicine,Imaging,No
+396,FDG PET CT,"18F FDG PET CT",Nuclear Medicine,Imaging,No
+397,PSMA PET CT,"PSMA Scan",Nuclear Medicine,Imaging,No
+398,DOTANOC PET CT,"Ga68 DOTANOC PET",Nuclear Medicine,Imaging,No
+399,DOPA PET CT,"FDOPA PET",Nuclear Medicine,Imaging,No
+400,Myocardial Perfusion Scan,"MPI Scan",Nuclear Medicine,Imaging,No

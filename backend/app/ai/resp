@@ -1,0 +1,12 @@
+import json
+
+from app.ai.models import GeminiResponse
+
+
+class ResponseParser:
+
+    @staticmethod
+    def parse(text: str) -> GeminiResponse:
+        data = json.loads(text)
+
+        return GeminiResponse(**data)
