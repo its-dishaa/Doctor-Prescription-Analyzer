@@ -55,6 +55,7 @@ class GeminiService:
 
                 except errors.APIError as exc:
                     status_code = getattr(exc, "code", None)
+                    print(f"FULL GEMINI ERROR: {exc!r}")
 
                     # Don't retry permanent errors such as invalid
                     # credentials or an unsupported model.
