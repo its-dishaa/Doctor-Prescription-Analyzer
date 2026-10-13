@@ -58,6 +58,31 @@ async def analyze_prescription(
 
         return result
 
+    except RuntimeError as e:
+
+        if "Gemini is temporarily unavailable" in str(e):
+            raise HTTPException(
+                status_code=503,
+                detail="Gemini is temporarily unavailable. Please try again in a few moments."
+            )
+
+        raise HTTPException(
+            status_code=500,
+            detail=str(e)
+        )
+
+    except Exception as e:
+
+        print("\n========== ANALYSIS ERROR ==========")
+        print(type(e).__name__)
+        print(str(e))
+        print("====================================\n")
+
+        raise HTTPException(
+            status_code=500,
+            detail="An error occurred while analyzing the prescription."
+        )
+
     finally:
         if filepath.exists():
             filepath.unlink()

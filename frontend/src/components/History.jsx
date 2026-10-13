@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 function History() {
-
+  const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
   const [prescriptions, setPrescriptions] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -18,9 +18,8 @@ function History() {
   const fetchHistory = async () => {
 
     try {
-
       const response = await axios.get(
-        "http://127.0.0.1:8000/api/v1/prescriptions"
+        `${API_URL}/api/v1/prescriptions`
       );
 
       setPrescriptions(response.data);

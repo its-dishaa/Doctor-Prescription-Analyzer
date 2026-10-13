@@ -3,6 +3,7 @@ import axios from "axios";
 
 
 function Analytics() {
+  const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
   const [analytics, setAnalytics] = useState(null);
 
@@ -23,9 +24,8 @@ function Analytics() {
     try {
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/api/v1/analytics"
+        `${API_URL}/api/v1/analytics`
       );
-
       console.log(
         "Analytics:",
         response.data

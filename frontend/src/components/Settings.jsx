@@ -1,122 +1,114 @@
 import React from "react";
 
 function Settings({ darkMode, setDarkMode }) {
+
   return (
-    <div>
+    <div className="page-container">
 
-      {/* Header */}
-      <div className="mb-8">
-        <p className="text-sm text-blue-600 font-semibold">
-          APPLICATION CONFIGURATION
-        </p>
+      <div className="page-heading">
 
-        <h1 className="text-3xl font-bold text-gray-800 dark:text-white mt-1">
+        <div className="section-label">
+          APPLICATION SETTINGS
+        </div>
+
+        <h1>
           Settings
         </h1>
 
-        <p className="text-gray-500 dark:text-gray-400 mt-2">
-          Configure your Prescripto application.
+        <p>
+          Customize your Claris experience.
         </p>
+
       </div>
 
 
-      {/* Appearance */}
-      <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-6 shadow-sm">
+      <div className="settings-card">
 
-        <h2 className="text-xl font-bold text-gray-800 dark:text-white">
-          Appearance
-        </h2>
-
-        <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-          Choose between light and dark theme.
-        </p>
-
-
-        {/* Theme Toggle */}
-        <div className="flex items-center justify-between mt-8">
+        <div className="settings-section">
 
           <div>
-            <h3 className="font-semibold text-gray-700 dark:text-gray-200">
-              Dark Mode
-            </h3>
 
-            <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-              Turn dark mode on or off.
+            <h2>
+              Appearance
+            </h2>
+
+            <p>
+              Choose how Claris looks on your device.
             </p>
+
           </div>
 
 
           <button
-            onClick={() => setDarkMode(!darkMode)}
-            className={`relative w-14 h-7 rounded-full transition ${
-              darkMode
-                ? "bg-blue-600"
-                : "bg-gray-300"
+            className={`theme-switch ${
+              darkMode ? "on" : ""
             }`}
+            onClick={() =>
+              setDarkMode(!darkMode)
+            }
           >
 
-            <div
-              className={`absolute top-1 w-5 h-5 bg-white rounded-full shadow transition-all ${
-                darkMode
-                  ? "left-8"
-                  : "left-1"
-              }`}
-            />
+            <span />
 
           </button>
 
         </div>
 
 
-        {/* Theme Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
+        <div className="theme-options">
 
-          {/* Light */}
           <button
-            onClick={() => setDarkMode(false)}
-            className={`p-6 rounded-xl border-2 text-left transition ${
+            className={
               !darkMode
-                ? "border-blue-500 bg-blue-50"
-                : "border-gray-200 dark:border-gray-600"
-            }`}
+                ? "theme-option selected"
+                : "theme-option"
+            }
+            onClick={() =>
+              setDarkMode(false)
+            }
           >
 
-            <div className="text-3xl">
-              ☀️
+            <div className="theme-preview light-preview">
+              ☼
             </div>
 
-            <h3 className="font-bold text-gray-800 dark:text-white mt-3">
-              Light
-            </h3>
+            <div>
+              <strong>
+                Light
+              </strong>
 
-            <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-              Use the light appearance.
-            </p>
+              <p>
+                Clean and bright
+              </p>
+            </div>
 
           </button>
 
 
-          {/* Dark */}
           <button
-            onClick={() => setDarkMode(true)}
-            className={`p-6 rounded-xl border-2 text-left transition ${
+            className={
               darkMode
-                ? "border-blue-500 bg-gray-700"
-                : "border-gray-200 dark:border-gray-600"
-            }`}
+                ? "theme-option selected"
+                : "theme-option"
+            }
+            onClick={() =>
+              setDarkMode(true)
+            }
           >
 
-            <div className="text-3xl">
-              🌙
+            <div className="theme-preview dark-preview">
+              ◐
             </div>
 
-            <h3 className="font-bold text-gray-800 dark:text-white mt-3">
-              Dark
-            </h3>
+            <div>
+              <strong>
+                Dark
+              </strong>
 
-            <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-              Use the dark appearance.
-            </p>
+              <p>
+                Comfortable for low light
+              </p>
+            </div>
 
           </button>
 
@@ -125,45 +117,60 @@ function Settings({ darkMode, setDarkMode }) {
       </div>
 
 
-      {/* System Information */}
-      <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-6 shadow-sm mt-6">
+      <div className="settings-card">
 
-        <h2 className="text-xl font-bold text-gray-800 dark:text-white">
-          System Information
-        </h2>
+        <div className="settings-section">
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+          <div>
 
-          <div className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4">
-            <p className="text-xs text-gray-500 dark:text-gray-400">
-              APPLICATION
+            <h2>
+              About Claris
+            </h2>
+
+            <p>
+              AI-powered prescription investigation
+              extraction.
             </p>
 
-            <p className="font-semibold text-gray-800 dark:text-white mt-1">
-              Prescripto AI Analyzer
-            </p>
           </div>
 
+          <span className="version-badge">
+            v1.0
+          </span>
 
-          <div className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4">
-            <p className="text-xs text-gray-500 dark:text-gray-400">
-              VERSION
-            </p>
+        </div>
 
-            <p className="font-semibold text-gray-800 dark:text-white mt-1">
-              1.0.0
-            </p>
+
+        <div className="about-grid">
+
+          <div>
+            <span>
+              FRONTEND
+            </span>
+
+            <strong>
+              React + Vite
+            </strong>
           </div>
 
+          <div>
+            <span>
+              AI
+            </span>
 
-          <div className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4">
-            <p className="text-xs text-gray-500 dark:text-gray-400">
+            <strong>
+              Gemini Vision
+            </strong>
+          </div>
+
+          <div>
+            <span>
               BACKEND
-            </p>
+            </span>
 
-            <p className="font-semibold text-green-600 mt-1">
+            <strong>
               FastAPI
-            </p>
+            </strong>
           </div>
 
         </div>

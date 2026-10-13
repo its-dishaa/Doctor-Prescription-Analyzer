@@ -11,113 +11,92 @@ function ResultCard({ investigation }) {
         : Math.round(confidence)
       : 0;
 
+  const rawName =
+    investigation.raw_name ||
+    "Unknown";
+
+  const canonicalName =
+    investigation.standard_name ||
+    investigation.canonical_name ||
+    "Not standardized";
+
 
   return (
-    <div className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md transition">
+    <div className="result-card">
 
-      <div className="flex justify-between items-start">
+      <div className="result-top">
 
-        <div>
+        <div className="result-number">
+          {String(confidencePercent).padStart(2, "0")}
+        </div>
 
-          <p className="text-xs uppercase tracking-wide text-gray-400">
-            Investigation
-          </p>
+        <div className="result-main">
 
-          <h3 className="text-lg font-bold text-gray-800 mt-1">
-            {investigation.canonical_name || "Unknown"}
+          <div className="result-label">
+            INVESTIGATION
+          </div>
+
+          <h3>
+            {canonicalName}
           </h3>
 
-          <p className="text-sm text-gray-500 mt-1">
-            Raw: {investigation.raw_name || "N/A"}
-          </p>
-
         </div>
 
+        <div className="confidence">
 
-        {/* Confidence */}
+          <span>
+            CONFIDENCE
+          </span>
 
-        <div className="text-right">
-
-          <p className="text-xs text-gray-400">
-            Confidence
-          </p>
-
-          <p className="text-lg font-bold text-blue-600">
+          <strong>
             {confidencePercent}%
-          </p>
+          </strong>
 
         </div>
 
       </div>
 
 
-      {/* Confidence bar */}
+      <div className="result-details">
 
-      <div className="mt-4">
+        <div className="detail-item">
 
-        <div className="w-full bg-gray-100 rounded-full h-2">
-
-          <div
-            className="bg-blue-600 h-2 rounded-full"
-            style={{
-              width: `${Math.min(confidencePercent, 100)}%`
-            }}
-          />
-
-        </div>
-
-      </div>
-
-
-      {/* Information */}
-
-      <div className="grid grid-cols-2 gap-4 mt-5">
-
-        <div className="bg-gray-50 rounded-lg p-3">
-
-          <p className="text-xs text-gray-400">
-            Department
-          </p>
-
-          <p className="text-sm font-semibold text-gray-700 mt-1">
-            {investigation.department || "N/A"}
-          </p>
-
-        </div>
-
-
-        <div className="bg-gray-50 rounded-lg p-3">
-
-          <p className="text-xs text-gray-400">
-            Fasting
-          </p>
-
-          <p className="text-sm font-semibold text-gray-700 mt-1">
-            {investigation.fasting || "N/A"}
-          </p>
-
-        </div>
-
-      </div>
-
-
-      {/* Validation */}
-
-      <div className="mt-4">
-
-        {investigation.validated ? (
-
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-green-50 text-green-600">
-            ✓ Validated
+          <span>
+            RAW NAME
           </span>
 
-        ) : (
+          <p>
+            {rawName}
+          </p>
 
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-yellow-50 text-yellow-600">
-            ⚠ Not validated
+        </div>
+
+
+        <div className="detail-item">
+
+          <span>
+            CANONICAL NAME
           </span>
 
-        )}
+          <p>
+            {canonicalName}
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div className="confidence-bar">
+
+        <div
+          style={{
+            width: `${Math.min(
+              confidencePercent,
+              100
+            )}%`,
+          }}
+        />
 
       </div>
 

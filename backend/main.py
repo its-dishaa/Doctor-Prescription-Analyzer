@@ -1,9 +1,7 @@
 from fastapi import FastAPI
-
-from app.api import router
 from fastapi.middleware.cors import CORSMiddleware
-
-
+from app.api import router
+from app.chatbot.router import router as chatbot_router
 app = FastAPI(
     title="Doctor Prescription Analyzer",
     version="1.0.0"
@@ -14,7 +12,7 @@ app.include_router(
     prefix="/api/v1",
     tags=["Prescription Analysis"]
 )
-
+app.include_router(chatbot_router)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[

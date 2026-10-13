@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 
 function UploadBox({ onFileSelect }) {
-
   const [preview, setPreview] = useState(null);
 
   const handleFileChange = (event) => {
-
     const selectedFile = event.target.files[0];
 
     if (!selectedFile) {
@@ -13,89 +11,68 @@ function UploadBox({ onFileSelect }) {
     }
 
     setPreview(URL.createObjectURL(selectedFile));
-
     onFileSelect(selectedFile);
   };
 
-
   const removeFile = () => {
-
     setPreview(null);
-
     onFileSelect(null);
   };
 
-
   return (
-    <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-6">
-
-      <div className="mb-5">
-
-        <h2 className="text-xl font-bold text-gray-800">
-          Analyze Prescription
-        </h2>
-
-        <p className="text-sm text-gray-500 mt-1">
-          Upload a prescription image to detect diagnostic investigations.
-        </p>
-
-      </div>
-
+    <div className="upload-container">
 
       {!preview ? (
 
-        <label className="block border-2 border-dashed border-gray-300 rounded-xl p-12 text-center cursor-pointer hover:border-blue-400 hover:bg-blue-50 transition">
-
-          <div className="text-5xl mb-4">
-            📄
-          </div>
-
-          <h3 className="text-lg font-semibold text-gray-700">
-            Upload prescription
-          </h3>
-
-          <p className="text-sm text-gray-500 mt-2">
-            PNG, JPG or JPEG
-          </p>
-
-          <div className="mt-5">
-
-            <span className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold">
-              Choose Image
-            </span>
-
-          </div>
+        <label className="upload-zone">
 
           <input
             type="file"
-            accept="image/*"
+            accept="image/png,image/jpeg,image/jpg"
             onChange={handleFileChange}
-            className="hidden"
+            hidden
           />
+
+          <div className="upload-icon">
+            ✧
+          </div>
+
+          <h3>
+            Extract medical investigations from
+            handwritten prescriptions using AI.
+          </h3>
+
+          <p>
+            Drop a prescription here or browse your device
+          </p>
+
+          <span className="file-types">
+            JPG · JPEG · PNG
+          </span>
 
         </label>
 
       ) : (
 
-        <div>
+        <div className="preview-container">
 
-          <div className="bg-gray-50 rounded-xl p-4">
+          <img
+            src={preview}
+            alt="Prescription preview"
+            className="prescription-preview"
+          />
 
-            <img
-              src={preview}
-              alt="Prescription preview"
-              className="max-h-96 mx-auto rounded-lg object-contain"
-            />
+          <div className="preview-actions">
 
-          </div>
-
-          <div className="flex justify-center mt-5">
+            <span className="selected-file">
+              {fileName(preview)}
+            </span>
 
             <button
               onClick={removeFile}
-              className="px-5 py-2 bg-red-50 text-red-600 rounded-lg hover:bg-red-100"
+              className="remove-button"
             >
-              Remove Image
+              Remove
             </button>
 
           </div>
@@ -106,6 +83,10 @@ function UploadBox({ onFileSelect }) {
 
     </div>
   );
+}
+
+function fileName(path) {
+  return path?.split("/").pop() || "Prescription selected";
 }
 
 export default UploadBox;

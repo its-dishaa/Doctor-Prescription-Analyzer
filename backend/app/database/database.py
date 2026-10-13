@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 from sqlalchemy import create_engine
@@ -5,7 +6,14 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 from sqlalchemy.pool import NullPool
 
 
-DATABASE_PATH = Path(r"C:\DoctorPrescriptionDB\doctor_prescription.db")
+# Render persistent disk uses /mnt/data.
+# Locally, store the database inside the backend folder.
+if os.name == "nt":
+    DATABASE_PATH = Path(__file__).resolve().parents[2] / "doctor_prescription.db"
+else:
+    DATABASE_PATH = Path("/mnt/data/doctor_prescription.db")
+
+DATABASE_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 DATABASE_URL = f"sqlite:///{DATABASE_PATH}"
 
